@@ -5,6 +5,7 @@ import { Combobox, ComboboxButton, ComboboxInput, ComboboxOption, ComboboxOption
 import Image from 'next/image'
 import { useState,Fragment } from 'react'
 import { manufacturers } from '@/constants'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const SearchManufacturer = ({manufacturer, setManufacturer}: SearchManufacturerProps) => {
      
@@ -36,6 +37,9 @@ const SearchManufacturer = ({manufacturer, setManufacturer}: SearchManufacturerP
             displayValue={(manufacturer:string) => manufacturer}
             onChange={(e) => setQuery(e.target.value)}
             />
+             <ComboboxButton className="group absolute inset-y-0 right-2 sm:right-8 px-2.5">
+               <ChevronDownIcon className="size-6 fill-black group-data-[hover]:fill-primary-blue" />
+             </ComboboxButton>
              <Transition 
                 as={Fragment}
                 leave="transition ease-in duration-100"
