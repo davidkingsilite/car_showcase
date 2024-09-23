@@ -70,6 +70,41 @@ export const manufacturers = [
     },
   ];
   
+
+   export const navbarLinks = [
+    {
+        id: 1,
+        title: "CARS",
+        url: "/"
+    },
+    {
+        id: 2,
+        title: "PORTFOLIO",
+        url: "/portfolio"
+    },
+    {
+        id: 3,
+        title: "BLOG",
+        url: "/blog"
+    },
+    {
+        id: 4,
+        title: "SHOWROOM",
+        url: "/showroom"
+    },
+    {
+        id: 5,
+        title: "CSR",
+        url: "/csr"
+    },
+    {
+        id: 6,
+        title: "ABOUT US",
+        url: "/aboutus"
+    },
+   ]
+
+
   export const footerLinks = [
     {
       title: "About",

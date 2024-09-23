@@ -8,6 +8,7 @@ export interface CustomButtonProps {
     textStyles?: string;
     rightIcon?: string;
     isDisabled?: boolean;
+    url?: string;
 }
 
 export interface SearchManufacturerProps {
