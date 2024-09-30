@@ -6,9 +6,7 @@ import Link from "next/link"
 
 const CustomButton = ({title,btnType, containerStyles, handleClick, rightIcon,textStyles,url,isDisabled}: CustomButtonProps) => {
   return (
-    <div>
-        
-    <Link href={`${url}`}>
+    <div> 
     <button
     disabled={false}
     type={"button" || btnType}
@@ -29,7 +27,7 @@ const CustomButton = ({title,btnType, containerStyles, handleClick, rightIcon,te
         </div>
      )}
     </button>
-     </Link>
+    
      </div>
   )
 }
