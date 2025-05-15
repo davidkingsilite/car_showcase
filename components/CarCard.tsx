@@ -7,7 +7,6 @@ import { CarDetails, CustomButton } from "./"
 import { calculateCarRent, generateCarImageUrl } from "@/utils"
 
 
-
 interface CarCardProps {
     car: CarProps;
 }
